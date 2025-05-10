@@ -19,10 +19,11 @@ git clone https://github.com/seovictoroque/wp-docker.git
 cd wp-docker
 ```
 
-É necessário ter o Docker instalado faça o download, instale e reincie o computador:
-![Windows](https://docs.docker.com/desktop/setup/install/windows-install/)
-![Linux](https://docs.docker.com/desktop/setup/install/linux/)
-![Mac](https://docs.docker.com/desktop/setup/install/mac-install/)
+É necessário ter o Docker instalado. Faça o download, instale e reinicie o computador:
+[![Windows](https://img.shields.io/badge/-Windows-0078D6?logo=windows&logoColor=white&style=flat-square)](https://www.docker.com/products/docker-desktop/)
+[![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black&style=flat-square)](https://docs.docker.com/engine/install/)
+[![Mac](https://img.shields.io/badge/-macOS-000000?logo=apple&logoColor=white&style=flat-square)](https://www.docker.com/products/docker-desktop/)
+
 
 Suba o ambiente Docker:
 ```bash
