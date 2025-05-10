@@ -1,9 +1,9 @@
 ## **📝 Como Instalar WordPress Localmente com Docker de forma fácil e pratica.**
 
-Esta documentação é um modelo pronto para criar, configurar e executar um ambiente local utilizando Docker e Docker Compose, para rodar o WordPress com MySQL e phpMyAdmin..
+Esta documentação é um modelo pronto para criar, configurar e executar um ambiente local utilizando Docker e Docker Compose, para rodar o WordPress com MySQL e phpMyAdmin.
 
 ## 📦 Requerimentos
-
+- Docker Desktop
 - WordPress (via Docker Compose)
 - phpMyAdmin 5.2.2 (via Docker)
 - MySQL 8.0 (via Docker)
@@ -19,8 +19,12 @@ git clone https://github.com/seovictoroque/wp-docker.git
 cd wp-docker
 ```
 
-Suba o ambiente Docker:
+É necessário ter o Docker instalado faça o download, instale e reincie o computador:
+![Windows](https://docs.docker.com/desktop/setup/install/windows-install/)
+![Linux](https://docs.docker.com/desktop/setup/install/linux/)
+![Mac](https://docs.docker.com/desktop/setup/install/mac-install/)
 
+Suba o ambiente Docker:
 ```bash
 docker-compose up -d
 ```
